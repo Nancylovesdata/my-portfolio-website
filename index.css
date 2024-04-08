@@ -42,17 +42,15 @@
   }
   
   a {
-    font-size: 30px;
+   
     text-decoration: none;
     color:whitesmoke;
     font-family: 'Times New Roman', Times, serif;
   }
   
-  a:hover {
-  padding: 2px;
-  border-bottom: 2px solid blueviolet;
   
-  }
+
+  
   .git:hover{
     border-bottom: none;
   }
@@ -121,6 +119,7 @@ border-bottom: none;
     background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
     text-decoration: none;
     color: white;
+    border-bottom: none;
   }
   
   .header-text{
@@ -441,6 +440,15 @@ padding: 7px;
 
   .project {
     padding: 50px;
+    background-color: #422758;
+    text-align: center;
+  }
+
+
+  .project h2{
+margin-bottom: 40px;
+color:#F0BD5C;
+font-weight:900px ;
   }
   
   .project-item {
@@ -461,16 +469,34 @@ padding: 7px;
     border-radius: 8px;
     overflow: hidden;
     width: 350px;
-    height: 300px;
+    height: 310px;
+
   }
+.landing{
+  padding: 8px 30px;
+  border-radius:5px;
+  font-size: 1rem;
+  background-color: #F0BD5C;
+    
+}
+
+.description h3{
+  color: #F0BD5C;
+}
+.jen{
+  text-decoration: none;
+ 
+}
+
   
   .image-upload {
     position: relative;
     height: 200px;
     background-color: #f1f1f1;
+    
   }
   
-  .image-upload input[type="file"] {
+  /* .image-upload input[type="file"] {
     position: absolute;
     top: 0;
     left: 0;
@@ -478,7 +504,7 @@ padding: 7px;
     height: 100%;
     opacity: 0;
     cursor: pointer;
-  }
+  } */
   
   #uploaded-image {
     width: 100%;
@@ -505,14 +531,31 @@ padding: 7px;
   
 
   
+/* 
+.contacts-me{
+  background-color: #290941;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+align-items: center;
+gap: 100px;
+
+}
+
+.contacts-me h2{
+color: #EFF5FC;
+padding-top:50px ;
+}
 
 
-
-
-
-
-  
-
+.contact-card{
+  display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 650px;
+    grid-row-gap: 0px;
+    } */
 
 /* 
 
@@ -642,6 +685,8 @@ padding: 7px;
     margin-right:40px ;
     }
    */
+
+   
     .footer {
       background-color: #333;
       color: #fff;
@@ -671,7 +716,7 @@ padding: 7px;
   }
   
   .site-footer {
-    background-color: #422758;
+    background-color:#290941;
     color: #fff;
     padding: 50px 0;
   }
@@ -706,18 +751,12 @@ padding: 7px;
     width: 70%;
   }
   
-  .newsletter button {
-    padding: 10px;
-    background-color: #fff;
-    color: #333;
-    border: none;
-    cursor: pointer;
-  }
+ 
   
-  .footer-bottom {
+  /* .footer-bottom {
     background-color: #F0BD5C;
     color: #fff;
     text-align: center;
     padding: 10px 0;
   }
-  
+   */
